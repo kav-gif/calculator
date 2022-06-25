@@ -1,0 +1,63 @@
+.calculator{
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    padding: .5em;
+    background-color: rgb(223, 138, 138);
+}
+
+
+
+.main_display{
+    min-height: 150px;
+    border:1px solid black;
+    margin-bottom: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    font-size: 1em;
+    background-color: rgb(193, 191, 191);
+    color: black;
+}
+
+.number_plate button{
+    padding: 1em;
+    
+}
+
+.button_color{
+        background-color: black;
+        color: white;
+
+}
+
+.others button{
+    background-color: grey;
+    font-weight: bold;
+}
+
+
+button{  
+    margin-right: 1.8em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    
+}
+
+#num,#num1,#func{
+    font-size: 1.7em;
+    margin-left: 1em;
+}
+
+#solution{
+    margin-left: 1em;
+}
+
+
+@media(max-width:600px){
+    button{  
+        margin-right: 1em;
+        margin-bottom:.5em;
+        font-size: 1.3em;
+        
+    }
+}
